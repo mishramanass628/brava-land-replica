@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.Abovenavbar{
+  position: sticky;
+  
+  background-color: rgb(247, 232, 22);
+  font-size:xx-small !important;
+  display:flex ;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 5vh;
+}
+.Abovenavbar a{
+  text-decoration: none;
+  color: black;
+}
+/* .swiper-container{
+  height: 10vh;
+} */
+.scroll-item{
+  display: flex !important;
+  border-bottom-left-radius:5cm !important;
+  border-top-left-radius: 5cm !important;
+  flex:1;
+  background-color: black !important;
+}
+.image-container{
+   flex:1 !important;
+}
+.content-container{
+     flex:1 !important;
+     color: aliceblue !important;
+}
+.shopbutton{
+  margin-left: 27rem;
+  margin-top: 5rem;
+  font-size:4ch;
+  color: rgb(255, 255, 255) !important;
+  text-decoration: none !important;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scroll-item-outer{
+  display: flex;
+  margin-top: 4vh;
+}
+.nextcomp{
+  font-style: italic;
+  text-align: center;
+  size: 1ch;
+  text-shadow: 1px;
 }

@@ -1,0 +1,236 @@
+/* Navbar.css */
+
+/* ... existing styles ... */
+
+#xx {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  
+  #xx::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(205, 212, 2);
+    transition: width 0.3s ease;
+  }
+  
+  #xx:hover::before {
+    width: 100%;
+  }
+  
+  /* ... existing styles ... */
+  
+
+
+.navbar-item {
+    position: relative;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .navbar-item::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(205, 212, 2);
+    transition: width 0.3s ease; 
+  }
+  
+  .navbar-item:hover::before {
+    width: 100%;
+  }
+.active{
+    color: yellow;
+}
+.navbar-right :hover{
+    color: yellow ;
+}
+.navbar-left :hover{
+    color: yellow;
+    
+}
+.menu1:hover .navbar-item {
+    color: yellow !important;
+}
+
+
+/* Navbar.css */
+.navbar {
+
+    display: flex;
+    top: 0;
+    z-index: 2000;
+    position:sticky !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+  .dd{
+    display: flex;
+    height: 32vh;
+    width: 100vw;
+    margin-top: -10px;
+    background-color: #333;
+    margin-bottom: -2vh;
+    
+    
+
+  }
+ 
+  #xx{
+    color: #ffffff;
+    
+
+  }
+  #xx:hover{
+    background-color: #333;
+    color: yellow;
+
+
+  }
+
+  .dd3{
+    
+    text-align: center;
+    justify-content: space-around;
+    font-size: 200%;
+    height: 32vh;
+    background-color: #333;
+    margin-top: -10px;
+    margin-bottom: -2vh;
+    
+    
+  }
+  .menu1:hover{
+    color: yellow !important;
+  }
+  .dd1{
+    flex: 1;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 200%;
+    color: #ffffff !important;
+    
+  }
+  .dd2{
+    flex: 1;
+    justify-content: space-around;
+    display: block;
+    text-align: center;
+    font-size: 200%;
+    
+  }
+  .navbar-left {
+    list-style: none;
+    display: flex;
+    gap: 0vw;
+  }
+  .navbar-right {
+    list-style: none;
+    display: flex;
+    gap: 0vw;
+  }
+  .navbar-item {
+    margin-right: 1vw;
+    margin-left: 1vw;
+    cursor: pointer;
+    font-size:200%;
+    /* font-style: bold; */
+  }
+  #dropdown-basic-button{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 0;
+    font-size:150%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  .navbar-logo {
+    width: 10vw; /* Adjust the width as needed */
+    height: auto;
+
+  }
+  
+  /* You may add more styling based on your design preferences */
+  
+/* ... existing styles ... */
+
+/* Navbar.css */
+/* ... existing styles ... */
+
+
+  
+  
+  
+  
+  
+  
+  .navbar-item a {
+      text-decoration: none;
+      
+    }
+    .navbar-item a:visited {
+        color: rgb(255, 255, 255);
+    }
+
+    
+  
+  /* Adjust styling as needed */
+  
+  
+  /* Adjust styling as needed */
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  a.youtube {
+    color: #ffffff;
+  }
+  
+  a.facebook {
+    color: #ffffff;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+  }
+  
+  a.twitter {
+    color: #ffffff;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
+  .person{
+    margin-left: 1vw;
+  }
+
+  .search{
+    margin-left: 1vw;
+
+  }
+  .cart{
+    margin-left:1vw;
+    margin-right:1vw;
+  }
+  
+  
+  
