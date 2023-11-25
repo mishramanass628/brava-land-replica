@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/brava-land-replica/static/css/main.0d310141.css",
+    "main.js": "/brava-land-replica/static/js/main.ce7b4319.js",
+    "static/js/787.0ed150d9.chunk.js": "/brava-land-replica/static/js/787.0ed150d9.chunk.js",
+    "index.html": "/brava-land-replica/index.html",
+    "main.0d310141.css.map": "/brava-land-replica/static/css/main.0d310141.css.map",
+    "main.ce7b4319.js.map": "/brava-land-replica/static/js/main.ce7b4319.js.map",
+    "787.0ed150d9.chunk.js.map": "/brava-land-replica/static/js/787.0ed150d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d310141.css",
+    "static/js/main.ce7b4319.js"
+  ]
+}
